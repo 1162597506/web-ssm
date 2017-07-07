@@ -2,6 +2,8 @@ package com.liuzhe.ssm.service;
 
 import com.liuzhe.ssm.entity.Book;
 
+import java.util.List;
+
 
 /**
  * Created by Alan on 2017/6/30.
@@ -16,4 +18,5 @@ public interface BookService {
 
     public Book getBook(Integer bookId);
 
+    List<Book> getBookList();
 }

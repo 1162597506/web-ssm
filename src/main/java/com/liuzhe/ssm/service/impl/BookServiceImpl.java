@@ -6,6 +6,7 @@ import com.liuzhe.ssm.service.BookService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * Created by Alan on 2017/6/30.
@@ -30,5 +31,9 @@ public class BookServiceImpl implements BookService {
 
     public Book getBook(Integer bookId){
         return mapping.selectByPrimaryKey(bookId);
+    }
+
+    public List<Book> getBookList() {
+        return mapping.selectAll();
     }
 }

@@ -118,4 +118,13 @@ public class Book {
     public void setAuthor(String author) {
         this.author = author == null ? null : author.trim();
     }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "bookId=" + bookId +
+                ", price=" + price +
+                ", author='" + author + '\'' +
+                '}';
+    }
 }
