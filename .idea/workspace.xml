@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="436b4840-201b-4ba7-b644-722f479b8d16" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/web-ssm/index.jsp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/liuzhe/ssm/controller/BookController.class" afterPath="$PROJECT_DIR$/target/classes/com/liuzhe/ssm/controller/BookController.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/liuzhe/ssm/controller/BookController.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/web-ssm/WEB-INF/classes/com/liuzhe/ssm/controller/BookController.class" afterPath="$PROJECT_DIR$/target/web-ssm/WEB-INF/classes/com/liuzhe/ssm/controller/BookController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/liuzhe/ssm/controller/BookController.java" afterPath="$PROJECT_DIR$/src/main/java/com/liuzhe/ssm/controller/BookController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/web-ssm/WEB-INF/classes/spring/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/web-ssm/WEB-INF/classes/spring/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/web-ssm/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/web-ssm/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-ssm.iml" afterPath="$PROJECT_DIR$/web-ssm.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/html/book.html" afterPath="$PROJECT_DIR$/src/main/webapp/page/html/book.html" />
     </list>
     <ignored path="web-ssm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,28 +55,28 @@
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.6875">
+            <state vertical-scroll-proportion="-35.53125">
               <caret line="72" column="10" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/page/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9375">
-              <caret line="154" column="22" selection-start-line="154" selection-start-column="22" selection-end-line="154" selection-end-column="22" />
+            <state vertical-scroll-proportion="1.446281">
+              <caret line="149" column="11" selection-start-line="149" selection-start-column="11" selection-end-line="149" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BookController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/ssm/controller/BookController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.752266">
-              <caret line="78" column="21" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="77" column="56" selection-start-line="77" selection-start-column="56" selection-end-line="77" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -167,8 +160,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/page/html/index2.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/ssm/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/page/html/book.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/page/html/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/liuzhe/ssm/controller/BookController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/page/html/index.html" />
       </list>
     </option>
   </component>
@@ -1149,8 +1142,15 @@
       <workItem from="1499329806871" duration="6896000" />
       <workItem from="1499393411415" duration="4395000" />
       <workItem from="1499527497846" duration="826000" />
-      <workItem from="1499647413108" duration="16091000" />
+      <workItem from="1499647413108" duration="17485000" />
     </task>
+    <task id="LOCAL-00001" summary="添加首页，将对图书的CURD整合到首页中。确定项目的目的，做一个图书管理系统。">
+      <created>1499675669354</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1499675669354</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1186,11 +1186,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72408000" />
+    <option name="totallyTimeSpent" value="73802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -1208,11 +1208,11 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.60967183" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3747841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6286701" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36614853" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26597583" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23363775" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23363775" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1235,7 +1235,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17830046" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24961948" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1245,8 +1245,8 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44041452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6286701" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36614853" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26597583" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23363775" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1272,7 +1272,8 @@
       <path value="$PROJECT_DIR$/web-ssm" />
     </ignored-roots>
     <MESSAGE value="添加商品界面的curd" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加商品界面的curd" />
+    <MESSAGE value="添加首页，将对图书的CURD整合到首页中。确定项目的目的，做一个图书管理系统。" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加首页，将对图书的CURD整合到首页中。确定项目的目的，做一个图书管理系统。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1596,14 +1597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.6875">
-          <caret line="72" column="10" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/ssm/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4880546">
@@ -1625,18 +1618,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/page/html/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/ssm/controller/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9375">
-          <caret line="154" column="22" selection-start-line="154" selection-start-column="22" selection-end-line="154" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="77" column="56" selection-start-line="77" selection-start-column="56" selection-end-line="77" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuzhe/ssm/controller/BookController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.752266">
-          <caret line="78" column="21" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+        <state vertical-scroll-proportion="-35.53125">
+          <caret line="72" column="10" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/page/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.446281">
+          <caret line="149" column="11" selection-start-line="149" selection-start-column="11" selection-end-line="149" selection-end-column="11" />
           <folding />
         </state>
       </provider>
