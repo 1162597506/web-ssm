@@ -76,7 +76,7 @@ public class BookController {
         Integer deleteBookNumber  = service.deleteBook(bookId);
         logger.info(bookId+"--------"+deleteBookNumber);
         map.addAttribute("number",deleteBookNumber);
-        return getBookList(map);
+        return "index";
     }
 
     @RequestMapping(value = "/getBook.do" ,method = RequestMethod.GET)
