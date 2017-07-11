@@ -43,4 +43,6 @@ public interface BookMapper {
      * @mbggenerated
      */
     int updateByPrimaryKey(Book record);
+
+    List<Book> searchAll(String word);
 }

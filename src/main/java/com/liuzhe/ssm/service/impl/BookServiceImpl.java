@@ -36,4 +36,9 @@ public class BookServiceImpl implements BookService {
     public List<Book> getBookList() {
         return mapping.selectAll();
     }
+
+    public List<Book> find(String word) {
+        List<Book> list = mapping.searchAll(word);
+        return list;
+    }
 }

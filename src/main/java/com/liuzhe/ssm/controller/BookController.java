@@ -11,6 +11,7 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServlet;
@@ -89,6 +90,13 @@ public class BookController {
     @RequestMapping(value = "/getBookList.do" ,method = RequestMethod.GET)
     public String getBookList(ModelMap map){
         List<Book> list  = service.getBookList();
+        map.addAttribute("list",list);
+        return "/book";
+    }
+
+    @RequestMapping(value = "/search.ajax",method = RequestMethod.GET)
+    public String find(String word, ModelMap map){
+        List<Book> list = service.find(word);
         map.addAttribute("list",list);
         return "/book";
     }

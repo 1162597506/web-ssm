@@ -57,4 +57,9 @@
     select book_id, price, author
     from book
   </select>
+  <select id="searchAll" resultMap="BaseResultMap" parameterType="java.lang.String">
+    select book_id, price, author
+    from book
+    WHERE book_id LIKE concat(concat('%',#{word}),'%') or price LIKE concat(concat('%',#{word}),'%') or author LIKE concat(concat('%',#{word}),'%')
+  </select>
 </mapper>

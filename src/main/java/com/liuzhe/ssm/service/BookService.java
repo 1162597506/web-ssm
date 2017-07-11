@@ -19,4 +19,6 @@ public interface BookService {
     public Book getBook(Integer bookId);
 
     List<Book> getBookList();
+
+    List<Book> find(String word);
 }
